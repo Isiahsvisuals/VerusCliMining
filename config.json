@@ -1,22 +1,22 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+		"name": "VerusCommunityPool",
+        	"url": "pool.verus.io:9998",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "VerusCommunityPool",
+        	"url": "pool.verus.io:9998",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
+		"name": "VerusCommunityPool",
+        	"url": "pool.verus.io:9999",
 		"timeout": 150
 	}
 	],
-	"user": "RAeQ68mARWJprEyCukoLk8BKYHeGZwoHoD.hub1phone1",
+	"user": "RAeQ68mARWJprEyCukoLk8BKYHeGZwoHoD.box1",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
